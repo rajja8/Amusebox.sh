@@ -24,20 +24,6 @@ expirydate = datetime.date(2022, 10, 12)
 
 today=date.today()
 
-green="\033[3;32m"
-
-neon="\033[3;36m"
-
-nc="\033[00m"
-
-red="\033[3;31m"
-
-purple="\033[3;34m"
-
-yellow="\033[3;33m"
-
-voilet="\033[3;35m"
-
 def hero():
 
     def chalo():
@@ -138,7 +124,7 @@ def hero():
 
         clear()
 
-        banner='Amusebox 5.0'
+        banner='figlet Amusebox 5.0'
 
         system(banner)
 
@@ -296,7 +282,7 @@ if(expirydate>today):
 
     else:
 
-        banner='Amusebox'
+        banner='figlet Amusebox'
 
         print("Hi!!Thanks for buying the hacK")
 
@@ -318,7 +304,7 @@ if(expirydate>today):
 
 else:
 
-    banner='Amusebox 5.0'
+    banner='figlet Amusebox 5.0'
 
     system(banner)
 
