@@ -4,7 +4,7 @@
 
 from os import system, name
 
-import itertools
+
 
 import threading
 
